@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #btn{
+            width:100%;
+            background-color: crimson;
+            color: white;
+        }
+        input{
+            width:99%;
+
+        }
+        div{
+            margin: 5px;;
+            
+        }
+        tbody{
+            text-align: center;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+       
+            
+
+            <table border="1" style="background-color: darkorange; width: 100%;" >
+                <tr>
+                    <th>Enter Name:</th>
+                    <td><input type="text" name="name" id="name"></td>
+                    <th>Enter Email:</th>
+                    <td><input type="email" name="email" id="email"></td>
+                    </tr>
+                    <tr>
+                        <th>Enter Age:</th>
+                        <td><input type="text" name="age" id="age"></td>
+                        <th>Enter Gender:</th>
+                        <td><input type="text" name="gender" id="gender"></td>
+                    </tr>
+                        <tr>
+                            <th colspan="2">Enter Address:</th>
+                            <td colspan="2"><input type="text" name="address" id="add"></td>
+                       
+                        </tr>
+                    <tr>
+
+                        <td colspan="4">
+                            <button id="btn">Save</button>
+                        </td>
+                    </tr>
+
+            </table>
+
+       
+
+    </div>
+    <div style="background-color: darkcyan; align-content: center;  align-items: center;">
+        <table border="1" style="width: 100%; align-items: center; color: aliceblue;">
+            <tr colspan="20" color="green">
+                <th rowspan="5">Name</th>
+                <th rowspan="5">Email</th>
+                <th rowspan="5">Gender</th>
+                <th rowspan="5">Age</th>
+                <th rowspan="5">Adress</th>
+
+
+            </tr>
+            <tbody id="tb">
+
+            </tbody>
+        </table>
+
+    </div>
+    <script src="./browserDataBase.js" ></script>
+    <script src="./Student.js" ></script>
+    <script  src="./controller.js"></script>
+
+
+
+</body>
+</html>
